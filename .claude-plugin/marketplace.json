@@ -1,74 +1,75 @@
 {
-	"name": "cosquared",
-	"owner": {
-		"name": "CoSquared",
-		"url": "https://cosquared.astar.inc/marketplace"
-	},
-	"plugins": [
-		{
-			"name": "ai-native-automation-leverage",
-			"source": "./plugins/ai-native-automation-leverage",
-			"description": "An /automate slash command (rule form for Cursor/Codex) that reviews each session for repeated manual work and proposes the smallest useful skill, command, or subagent to own it. For builders who want each session to compound."
-		},
-		{
-			"name": "backend-api-contract",
-			"source": "./plugins/backend-api-contract",
-			"description": "A verification subagent (rule form for Cursor/Codex) that runs your integration and contract tests after any route, schema, or migration change — and checks that request/response shapes still match their consumers."
-		},
-		{
-			"name": "tester-subagent",
-			"source": "./plugins/tester-subagent",
-			"description": "A Tester subagent for Claude Code (rule form for Cursor/Codex) that runs the project's test suite after accepted changes and reports honestly on what it could not verify."
-		},
-		{
-			"name": "explain-before-accept",
-			"source": "./plugins/explain-before-accept",
-			"description": "An /explain slash command (rule form for Cursor/Codex): what the change does, why this approach, what could break, and the one thing to verify yourself — before you accept it."
-		},
-		{
-			"name": "finish-the-thread",
-			"source": "./plugins/finish-the-thread",
-			"description": "A /wrap-up slash command (rule form for Cursor/Codex) that closes each session cleanly: summarize, confirm tests, draft the commit, and flag half-done work that should not land yet."
-		},
-		{
-			"name": "plan-then-execute",
-			"source": "./plugins/plan-then-execute",
-			"description": "A skill your agent invokes when a task is non-trivial: write the spec and acceptance check, produce a step-ordered plan, get it approved, then execute one step at a time with a checkpoint after each. The procedure form of the plan-first rule."
-		},
-		{
-			"name": "verify-after-accept",
-			"source": "./plugins/verify-after-accept",
-			"description": "A skill that runs after you accept a change: it re-derives what the change claims to do, runs the narrowest real check that could falsify it, and reports what remains unverified — so acceptance and verification stop drifting apart."
-		},
-		{
-			"name": "edge-case-hunter",
-			"source": "./plugins/edge-case-hunter",
-			"description": "A skill that inspects a change and its tests, enumerates the boundary conditions the tests do not cover — empty inputs, nulls, ordering, concurrency, unicode, limits — and drafts the two highest-value missing tests."
-		},
-		{
-			"name": "explain-this-change",
-			"source": "./plugins/explain-this-change",
-			"description": "A skill that turns any diff into a structured explanation: what changed, why this approach, what could break, and one question to test your own understanding — so comprehension keeps pace with acceptance."
-		},
-		{
-			"name": "scope-cutter",
-			"source": "./plugins/scope-cutter",
-			"description": "A skill that takes a ballooning task and splits it into the smallest landable slice plus an explicit later-list — so sessions end in commits instead of half-finished threads."
-		},
-		{
-			"name": "context-primer",
-			"source": "./plugins/context-primer",
-			"description": "A skill that audits your project-instructions file (CLAUDE.md / AGENTS.md / rules) against the repo as it exists today: stale commands, missing conventions, gotchas discovered since — and drafts the minimal update."
-		},
-		{
-			"name": "migration-check",
-			"source": "./plugins/migration-check",
-			"description": "A backend skill invoked on any schema or migration change: confirms reversibility or an explicit one-way call, checks defaults and nullability against live-row reality, and verifies a test exercises the new shape before it ships."
-		},
-		{
-			"name": "study-recap",
-			"source": "./plugins/study-recap",
-			"description": "A student skill that closes a working session by turning what was built into understanding: the concepts used, one re-implementation exercise, and the question you should be able to answer cold tomorrow."
-		}
-	]
+  "name": "cosquared",
+  "description": "Validated skills and commands for AI-assisted development. Every item passes an executable policy lint: no dynamic-context shell preprocessing, no network fetches in executable positions, path-safe artifacts, and a secret scan. From CoSquared, the privacy-first AI engineering coach.",
+  "owner": {
+    "name": "CoSquared",
+    "url": "https://cosquared.astar.inc/marketplace"
+  },
+  "plugins": [
+    {
+      "name": "ai-native-automation-leverage",
+      "source": "./plugins/ai-native-automation-leverage",
+      "description": "An /automate slash command (rule form for Cursor/Codex) that reviews each session for repeated manual work and proposes the smallest useful skill, command, or subagent to own it. For builders who want each session to compound."
+    },
+    {
+      "name": "backend-api-contract",
+      "source": "./plugins/backend-api-contract",
+      "description": "A verification subagent (rule form for Cursor/Codex) that runs your integration and contract tests after any route, schema, or migration change — and checks that request/response shapes still match their consumers."
+    },
+    {
+      "name": "tester-subagent",
+      "source": "./plugins/tester-subagent",
+      "description": "A Tester subagent for Claude Code (rule form for Cursor/Codex) that runs the project's test suite after accepted changes and reports honestly on what it could not verify."
+    },
+    {
+      "name": "explain-before-accept",
+      "source": "./plugins/explain-before-accept",
+      "description": "An /explain slash command (rule form for Cursor/Codex): what the change does, why this approach, what could break, and the one thing to verify yourself — before you accept it."
+    },
+    {
+      "name": "finish-the-thread",
+      "source": "./plugins/finish-the-thread",
+      "description": "A /wrap-up slash command (rule form for Cursor/Codex) that closes each session cleanly: summarize, confirm tests, draft the commit, and flag half-done work that should not land yet."
+    },
+    {
+      "name": "plan-then-execute",
+      "source": "./plugins/plan-then-execute",
+      "description": "A skill your agent invokes when a task is non-trivial: write the spec and acceptance check, produce a step-ordered plan, get it approved, then execute one step at a time with a checkpoint after each. The procedure form of the plan-first rule."
+    },
+    {
+      "name": "verify-after-accept",
+      "source": "./plugins/verify-after-accept",
+      "description": "A skill that runs after you accept a change: it re-derives what the change claims to do, runs the narrowest real check that could falsify it, and reports what remains unverified — so acceptance and verification stop drifting apart."
+    },
+    {
+      "name": "edge-case-hunter",
+      "source": "./plugins/edge-case-hunter",
+      "description": "A skill that inspects a change and its tests, enumerates the boundary conditions the tests do not cover — empty inputs, nulls, ordering, concurrency, unicode, limits — and drafts the two highest-value missing tests."
+    },
+    {
+      "name": "explain-this-change",
+      "source": "./plugins/explain-this-change",
+      "description": "A skill that turns any diff into a structured explanation: what changed, why this approach, what could break, and one question to test your own understanding — so comprehension keeps pace with acceptance."
+    },
+    {
+      "name": "scope-cutter",
+      "source": "./plugins/scope-cutter",
+      "description": "A skill that takes a ballooning task and splits it into the smallest landable slice plus an explicit later-list — so sessions end in commits instead of half-finished threads."
+    },
+    {
+      "name": "context-primer",
+      "source": "./plugins/context-primer",
+      "description": "A skill that audits your project-instructions file (CLAUDE.md / AGENTS.md / rules) against the repo as it exists today: stale commands, missing conventions, gotchas discovered since — and drafts the minimal update."
+    },
+    {
+      "name": "migration-check",
+      "source": "./plugins/migration-check",
+      "description": "A backend skill invoked on any schema or migration change: confirms reversibility or an explicit one-way call, checks defaults and nullability against live-row reality, and verifies a test exercises the new shape before it ships."
+    },
+    {
+      "name": "study-recap",
+      "source": "./plugins/study-recap",
+      "description": "A student skill that closes a working session by turning what was built into understanding: the concepts used, one re-implementation exercise, and the question you should be able to answer cold tomorrow."
+    }
+  ]
 }
