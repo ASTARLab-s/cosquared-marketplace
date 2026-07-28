@@ -1,0 +1,11 @@
+{
+	"name": "study-recap",
+	"description": "A student skill that closes a working session by turning what was built into understanding: the concepts used, one re-implementation exercise, and the question you should be able to answer cold tomorrow.",
+	"version": "1.1.0",
+	"author": {
+		"name": "CoSquared",
+		"url": "https://cosquared.astar.inc"
+	},
+	"homepage": "https://cosquared.astar.inc/marketplace/study-recap",
+	"license": "Apache-2.0"
+}

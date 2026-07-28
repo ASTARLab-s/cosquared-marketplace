@@ -1,0 +1,11 @@
+{
+	"name": "verify-after-accept",
+	"description": "A skill that runs after you accept a change: it re-derives what the change claims to do, runs the narrowest real check that could falsify it, and reports what remains unverified — so acceptance and verification stop drifting apart.",
+	"version": "1.1.0",
+	"author": {
+		"name": "CoSquared",
+		"url": "https://cosquared.astar.inc"
+	},
+	"homepage": "https://cosquared.astar.inc/marketplace/verify-after-accept",
+	"license": "Apache-2.0"
+}

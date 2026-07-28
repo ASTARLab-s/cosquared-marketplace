@@ -1,0 +1,11 @@
+{
+	"name": "explain-this-change",
+	"description": "A skill that turns any diff into a structured explanation: what changed, why this approach, what could break, and one question to test your own understanding — so comprehension keeps pace with acceptance.",
+	"version": "1.1.0",
+	"author": {
+		"name": "CoSquared",
+		"url": "https://cosquared.astar.inc"
+	},
+	"homepage": "https://cosquared.astar.inc/marketplace/explain-this-change",
+	"license": "Apache-2.0"
+}

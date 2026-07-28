@@ -1,0 +1,11 @@
+{
+	"name": "edge-case-hunter",
+	"description": "A skill that inspects a change and its tests, enumerates the boundary conditions the tests do not cover — empty inputs, nulls, ordering, concurrency, unicode, limits — and drafts the two highest-value missing tests.",
+	"version": "1.1.0",
+	"author": {
+		"name": "CoSquared",
+		"url": "https://cosquared.astar.inc"
+	},
+	"homepage": "https://cosquared.astar.inc/marketplace/edge-case-hunter",
+	"license": "Apache-2.0"
+}

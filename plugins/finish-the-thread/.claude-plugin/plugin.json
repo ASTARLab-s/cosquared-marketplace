@@ -1,0 +1,11 @@
+{
+	"name": "finish-the-thread",
+	"description": "A /wrap-up slash command (rule form for Cursor/Codex) that closes each session cleanly: summarize, confirm tests, draft the commit, and flag half-done work that should not land yet.",
+	"version": "1.1.0",
+	"author": {
+		"name": "CoSquared",
+		"url": "https://cosquared.astar.inc"
+	},
+	"homepage": "https://cosquared.astar.inc/marketplace/finish-the-thread",
+	"license": "Apache-2.0"
+}

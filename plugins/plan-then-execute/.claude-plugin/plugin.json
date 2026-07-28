@@ -1,0 +1,11 @@
+{
+	"name": "plan-then-execute",
+	"description": "A skill your agent invokes when a task is non-trivial: write the spec and acceptance check, produce a step-ordered plan, get it approved, then execute one step at a time with a checkpoint after each. The procedure form of the plan-first rule.",
+	"version": "1.1.0",
+	"author": {
+		"name": "CoSquared",
+		"url": "https://cosquared.astar.inc"
+	},
+	"homepage": "https://cosquared.astar.inc/marketplace/plan-then-execute",
+	"license": "Apache-2.0"
+}
