@@ -1,11 +1,11 @@
 {
-	"name": "backend-api-contract",
-	"description": "A verification subagent (rule form for Cursor/Codex) that runs your integration and contract tests after any route, schema, or migration change — and checks that request/response shapes still match their consumers.",
-	"version": "1.1.0",
-	"author": {
-		"name": "CoSquared",
-		"url": "https://cosquared.astar.inc"
-	},
-	"homepage": "https://cosquared.astar.inc/marketplace/backend-api-contract",
-	"license": "Apache-2.0"
+  "name": "backend-api-contract",
+  "description": "A verification subagent (rule form for Cursor/Codex) that runs your integration and contract tests after any route, schema, or migration change — and checks that request/response shapes still match their consumers.",
+  "version": "1.1.0",
+  "author": {
+    "name": "CoSquared",
+    "url": "https://cosquared.astar.inc"
+  },
+  "homepage": "https://cosquared.astar.inc/marketplace/backend-api-contract",
+  "license": "Apache-2.0"
 }

@@ -1,11 +1,11 @@
 {
-	"name": "tester-subagent",
-	"description": "A Tester subagent for Claude Code (rule form for Cursor/Codex) that runs the project's test suite after accepted changes and reports honestly on what it could not verify.",
-	"version": "1.1.0",
-	"author": {
-		"name": "CoSquared",
-		"url": "https://cosquared.astar.inc"
-	},
-	"homepage": "https://cosquared.astar.inc/marketplace/tester-subagent",
-	"license": "Apache-2.0"
+  "name": "tester-subagent",
+  "description": "A Tester subagent for Claude Code (rule form for Cursor/Codex) that runs the project's test suite after accepted changes and reports honestly on what it could not verify.",
+  "version": "1.1.0",
+  "author": {
+    "name": "CoSquared",
+    "url": "https://cosquared.astar.inc"
+  },
+  "homepage": "https://cosquared.astar.inc/marketplace/tester-subagent",
+  "license": "Apache-2.0"
 }
